@@ -3,6 +3,10 @@ class NegociacoesView extends View {
     constructor(elemento) {
         // É necessario colocar esse atributo super para que a classe pai receba 
         // os elementos das calsse filha
+        //A palavra super, como já vimos, nos dá acesso à superclasse, ou seja,
+        //a classe que foi herdada. 
+        // A chamada do construtor da classe pai deve ser a primeira instrução 
+        //no construtor da classe filha
         super(elemento);
     }
 
